@@ -1,0 +1,28 @@
+GIT
+ git --version
+ git init
+ git status
+ git add lingit.txt
+ git commit -m commit1
+ git checkout -b branch1
+ git branch
+
+(Github)
+ git branch -M main # -m oder -M ist umbenennen
+ git remote add origin https://github.com/makragit/lingit.git
+ git push -u origin main
+ 
+Delete branch
+ git branch -d branch1 (delete branch locally, remote on github)
+      
+Add Branch
+ git branch branch1 / git checkout -b branch1
+ git push -u origin branch1
+
+Merge Branch
+ git checkout main
+ git merge linbranch1
+ git branch -d linbranch1
+
+x kann ich mit pull aus versehen was löschen wenn ich pushen wollte?
+ - NEIN, gibt eine Fehlermeldung REJECTED
